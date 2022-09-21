@@ -32,7 +32,8 @@ typedef struct link_s
 {
 	size_t n;
 	struct binary_tree_s const *node;
-}link_t;
+}
+	link_t;
 
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
